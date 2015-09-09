@@ -6,7 +6,6 @@
         /// The target of the WeakAction.
         /// </summary>
         object Target { get; }
-
         /// <summary>
         /// Executes an action.
         /// </summary>

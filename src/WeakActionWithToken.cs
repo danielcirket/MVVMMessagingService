@@ -72,9 +72,7 @@ namespace MVVMMessagingService
                 _action = action;
 
                 if (target != null)
-                {
                     Reference = new WeakReference(target);
-                }
 
                 return;
             }

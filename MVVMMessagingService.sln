@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMMessagingService", "src\MVVMMessagingService.csproj", "{A762129D-9361-4AE1-A338-AF8C8A8744EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingServiceTests", "tests\MessagingServiceTests\MessagingServiceTests.csproj", "{10036DAD-0D3F-4BBA-A7F0-53A6B0F7B42E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A8D7D56-E128-4E61-81E5-F7A7C71274AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{09E43CF8-8EAD-4123-9C22-9CC65FFD13A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHelpers", "tests\TestHelpers\TestHelpers.csproj", "{A0E7DBCE-D5D2-47B6-B141-949E66CCB091}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +23,21 @@ Global
 		{A762129D-9361-4AE1-A338-AF8C8A8744EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A762129D-9361-4AE1-A338-AF8C8A8744EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A762129D-9361-4AE1-A338-AF8C8A8744EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10036DAD-0D3F-4BBA-A7F0-53A6B0F7B42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10036DAD-0D3F-4BBA-A7F0-53A6B0F7B42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10036DAD-0D3F-4BBA-A7F0-53A6B0F7B42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10036DAD-0D3F-4BBA-A7F0-53A6B0F7B42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E7DBCE-D5D2-47B6-B141-949E66CCB091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E7DBCE-D5D2-47B6-B141-949E66CCB091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E7DBCE-D5D2-47B6-B141-949E66CCB091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E7DBCE-D5D2-47B6-B141-949E66CCB091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A762129D-9361-4AE1-A338-AF8C8A8744EB} = {7A8D7D56-E128-4E61-81E5-F7A7C71274AF}
+		{10036DAD-0D3F-4BBA-A7F0-53A6B0F7B42E} = {09E43CF8-8EAD-4123-9C22-9CC65FFD13A9}
+		{A0E7DBCE-D5D2-47B6-B141-949E66CCB091} = {09E43CF8-8EAD-4123-9C22-9CC65FFD13A9}
 	EndGlobalSection
 EndGlobal
